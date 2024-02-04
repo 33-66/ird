@@ -17,6 +17,8 @@ db.init_app(app)
 
 api = Api(app)
 
+
+
 class Birds(Resource):
 
     def get(self):
